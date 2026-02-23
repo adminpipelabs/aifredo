@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="forgeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366F1"/>
+      <stop offset="100%" style="stop-color:#4F46E5"/>
+    </linearGradient>
+    <linearGradient id="sparkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B"/>
+      <stop offset="100%" style="stop-color:#EF4444"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background rounded square -->
+  <rect x="32" y="32" width="448" height="448" rx="96" fill="url(#forgeGradient)"/>
+  
+  <!-- Anvil shape - simplified, modern -->
+  <path d="M156 320 L156 280 L200 280 L200 200 L312 200 L312 280 L356 280 L356 320 L336 320 L336 360 L176 360 L176 320 Z" fill="white"/>
+  
+  <!-- Hammer head above anvil -->
+  <rect x="220" y="140" width="72" height="40" rx="8" fill="white"/>
+  
+  <!-- Spark/AI element - three ascending dots suggesting intelligence -->
+  <circle cx="380" cy="180" r="16" fill="url(#sparkGradient)"/>
+  <circle cx="400" cy="140" r="12" fill="url(#sparkGradient)" opacity="0.8"/>
+  <circle cx="412" cy="108" r="8" fill="url(#sparkGradient)" opacity="0.6"/>
+</svg>

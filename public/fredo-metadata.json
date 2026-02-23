@@ -1,0 +1,11 @@
+{
+  "name": "FREDO",
+  "symbol": "FREDO",
+  "description": "The AI Bot Economy token. Build, deploy, and monetize AI bots on Aifredo.",
+  "image": "https://aifredo.chat/aifredo-logo.svg",
+  "external_url": "https://aifredo.chat",
+  "attributes": [],
+  "properties": {
+    "category": "currency"
+  }
+}
