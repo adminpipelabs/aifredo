@@ -68,7 +68,7 @@ export default function Token() {
   const allTasksDone = completedCount === totalTasks;
   const earnedFredo = tasks.reduce((sum, t) => sum + (t.completed ? t.reward : 0), 0);
 
-  const sampleTweet = 'Just built my first AI agent on @aifredochat 🤖\n\nCheck it out: aifredo.chat/bot/MyAgent\n\n#Aifredo $FREDO';
+  const sampleTweet = 'Just built my first AI agent on @AiFredo_Agent 🤖\n\nCheck it out: aifredo.chat/bot/MyAgent\n\n#Aifredo $FREDO';
 
   const copyTweet = () => {
     navigator.clipboard.writeText(sampleTweet);
@@ -321,7 +321,7 @@ export default function Token() {
                                   </button>
                                 ) : task.id === 'x_follow' ? (
                                   <button
-                                    onClick={() => { window.open('https://x.com/aifredochat', '_blank'); handleTaskAction('x_follow'); }}
+                                    onClick={() => { window.open('https://x.com/AiFredo_Agent', '_blank'); handleTaskAction('x_follow'); }}
                                     className="inline-flex items-center gap-1.5 px-4 py-2 bg-slate-700 hover:bg-slate-600 text-white text-xs font-bold rounded-lg transition-all"
                                   >
                                     <ExternalLink className="w-3 h-3" />
